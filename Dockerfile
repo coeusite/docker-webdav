@@ -23,4 +23,6 @@ RUN       chmod -R a+rw /var/www
 # Share the volume with the files to other dockers
 VOLUME    /var/www
 
+EXPOSE 80
+
 CMD       /set_htpasswd.sh && nginx -g "daemon off;" 
