@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t pooya/docker-webdav .
+docker build -t pooya/webdav .
